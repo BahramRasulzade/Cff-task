@@ -256,3 +256,163 @@
 
 #endregion
 
+#region 16ci sual
+//bool isPrime=false;
+
+//int number=Convert.ToInt32(Console.ReadLine());
+
+//for (int i = 2; i <= number-1; i++) 
+//{
+//    if (number % i == 0)
+//    {
+//        isPrime=true;
+//        break;
+//    }
+//    else {
+//        isPrime = false;
+//    }
+//}
+//if (isPrime)
+//{
+//    Console.WriteLine("primedeyil");
+//}
+//else {
+//    Console.WriteLine("prime");
+//}
+
+
+
+
+
+
+
+
+
+
+
+//if (a % a != 0 && a % 1 != 0)
+//{
+//    Console.WriteLine("Prime");
+//}
+//else 
+//{
+
+//    Console.WriteLine("Prime deyil");
+//}
+
+#endregion
+
+
+#region 17ci sual
+
+//int[] arr = [23, 60, 43, 12, 56, 100, 23, 43, 21, 36, 72];
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    //int div = Convert.ToInt32(arr[i]);
+//    if (arr[i] % 6 == 0)
+//    {
+//        Console.WriteLine("6ya bolunur: " + arr[i]);
+//    }
+//    else
+//    {
+//        Console.WriteLine("6ya bolunmur: " + arr[i]);
+//    }
+//}
+
+
+
+
+#endregion
+
+
+#region 18ci sual
+
+//while (true)
+//{
+//    Console.WriteLine("1. +");
+//    Console.WriteLine("2. *");
+//    Console.WriteLine("3. -");
+//    Console.WriteLine("4. /");
+//    Console.WriteLine("5. %");
+//    Console.WriteLine("6. ^n");
+//    Console.WriteLine("Emeliyyat:");
+//    int do1 = Convert.ToInt32(Console.ReadLine());
+//    Console.WriteLine("A-ni daxil edin:");
+//    int A = Convert.ToInt32(Console.ReadLine());
+//    Console.WriteLine("B-ni daxil edin:");
+//    int B = Convert.ToInt32(Console.ReadLine());
+
+
+//    switch (do1)
+//    {
+//        case 1:
+//            Console.WriteLine("A+B= " + (A + B));
+//            break;
+//        case 2:
+//            Console.WriteLine("A*B= " + (A * B));
+//            break;
+//        case 3:
+//            Console.WriteLine("A-B= " + (A - B));
+//            break;
+//        case 4:
+//            if (A == 0 && B == 0)
+//            {
+//                Console.WriteLine("yeniden daxil et");
+//            }
+//            else
+//            {
+//                Console.WriteLine("A/B= " + (A / B));
+//            }
+//            break;
+//        case 5:
+//            Console.WriteLine("A%B= " + (A % B));
+//            break;
+//        case 6:
+//            if (B == 0)
+//            {
+//                Console.WriteLine("A^B= 1");
+//            }
+//            else
+//            {
+//                Console.WriteLine("A^B= " + Math.Pow(A, B));
+//            }
+//            break;
+//    }
+
+//}
+
+
+
+#endregion
+
+#region 22-ci sual
+
+//int i = 1;
+//while (i < 101) 
+//{
+//    for (int j = 0; j < 5; j++)
+//    {
+//        int eded = Convert.ToInt32(Console.ReadLine());
+//        if (eded == i)
+//        {
+//            Console.WriteLine("u won");
+//        }
+//        else {
+//    }
+
+
+//}
+
+
+#endregion
+
+
+string a=Console.ReadLine();
+for (int i = 0; i < a.Length; i++)
+{
+    a.Split(' ');
+    if (a[i] == a[-1 - i])
+    {
+        Console.WriteLine("pareliolondu");
+    }
+}
