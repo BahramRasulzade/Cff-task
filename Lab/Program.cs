@@ -42,6 +42,7 @@
 
 #endregion
 
+
 #region 3cu sual
 
 //100 >= boyuk <= kicik neticesini versin
@@ -60,6 +61,7 @@
 
 #endregion
 
+
 #region 4ci sual
 
 //18den boyuklere adult kiciklere child veren kod yaz
@@ -77,6 +79,7 @@
 //}
 
 #endregion
+
 
 #region 5ci sual
 
@@ -99,6 +102,7 @@
 //}
 
 #endregion
+
 
 #region 6ci sual
 
@@ -134,6 +138,7 @@
 
 #endregion
 
+
 #region 7ci sual
 
 //ededin kubunu tap
@@ -145,6 +150,7 @@
 //Console.WriteLine(A);
 
 #endregion
+
 
 #region 8cu sual
 
@@ -180,6 +186,7 @@
 //}
 #endregion
 
+
 #region 10,11ci suallar
 
 //string[] students = { "x1", "x2", "x3", "x4", "x5", "x6","x7","x8" };
@@ -210,6 +217,7 @@
 
 #endregion
 
+
 #region 14cu sual
 
 
@@ -224,6 +232,7 @@
 
 
 #endregion
+
 
 #region 15ci sual
 
@@ -255,6 +264,7 @@
 //Console.WriteLine("eded orta: " + cem / count);
 
 #endregion
+
 
 #region 16ci sual
 //bool isPrime=false;
@@ -385,34 +395,126 @@
 
 #endregion
 
-#region 22-ci sual
 
-//int i = 1;
-//while (i < 101) 
+#region 19cu sual
+
+//double[] price = [100.0, 1300.50, 259.99, 430.30, 160.99, 320.0];
+//for (int i = 0; i < price.Length; i++)
 //{
-//    for (int j = 0; j < 5; j++)
+//    double b = price[i] * 0.8;
+//    Console.WriteLine(b);
+//}
+
+#endregion
+
+
+#region 20ci sual
+
+//int[] age = [23, 34, 19, 65, 40, 66, 29, 35, 67, 64, 60, 32, 57];
+//for (int i = 0; i < age.Length; i++)
+//{
+//    if (age[i] >= 65)
 //    {
-//        int eded = Convert.ToInt32(Console.ReadLine());
-//        if (eded == i)
-//        {
-//            Console.WriteLine("u won");
-//        }
-//        else {
+//        Console.WriteLine($"{age[i]} yasli sexs teqaude dusur");
 //    }
-
-
 //}
 
 
 #endregion
 
 
-string a=Console.ReadLine();
-for (int i = 0; i < a.Length; i++)
-{
-    a.Split(' ');
-    if (a[i] == a[-1 - i])
-    {
-        Console.WriteLine("pareliolondu");
-    }
-}
+#region 21-ci sual
+
+//int d = 180;
+//int a = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine($"{d - a} left");
+//int b = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine($"{d - (a+b)} left");
+//int c = d-(a+b);
+
+//if (a == b && a == c && b == c)
+//{
+//    Console.WriteLine("Beraber terefli");
+//}
+//else if (a == b || a == c || b == c)
+//{
+//    Console.WriteLine("Beraber yanli");
+//}
+//else if(a==90 || b==90 || c==90)
+//{
+//    Console.WriteLine("Duzbucaqli ucbucaq");
+//}
+//else
+//{
+//    Console.WriteLine("Ferqli terefli");
+//}
+
+
+#endregion
+
+
+#region 22-ci sual
+
+////Random rnm= new Random();    random generator yaratmaq ucun istifade olunur
+//int i = 1;
+
+////int i=rnm.Next(1, 101);     arada 1-100 arasi random eded verir
+
+//while (i < 101)
+//{
+//    for (int j = 0; j < 5;)
+//    {
+//        int eded = Convert.ToInt32(Console.ReadLine());
+//        j++;
+//        if (eded == i)
+//        {
+//            Console.WriteLine("u won");
+//        }
+//    }
+//    Console.WriteLine("u lost");
+//    //Console.WriteLine("number was: " + i);
+//}
+
+#endregion
+
+
+#region 23-cu sual
+
+//Console.WriteLine("Kvadrat sahesi");
+//double a = Convert.ToDouble(Console.ReadLine());
+//double b = Convert.ToDouble(Console.ReadLine());
+//double sahe = a * b;
+//Console.WriteLine(sahe);
+
+//Console.WriteLine("Duzbucaqli sahesi");
+//double en = Convert.ToDouble(Console.ReadLine());
+//double uzun = Convert.ToDouble(Console.ReadLine());
+//double sahe1 = en*uzun;
+//Console.WriteLine(sahe1);
+
+//Console.WriteLine("ucbucaq sahesi");
+//double h = Convert.ToDouble(Console.ReadLine());
+//double esas = Convert.ToDouble(Console.ReadLine());
+//double sahe2 = h*esas;
+//Console.WriteLine(sahe2/2);
+
+#endregion
+
+
+#region 24-ci sual
+
+//string a = Console.ReadLine();
+//char[] b = a.ToCharArray();
+//for (int i = 0; i < b.Length; i++)
+//{
+//    if (b[i] == b[(b.Length - i - 1)])
+//    {
+//            Console.WriteLine("pareliolondu");
+//    }
+//    else
+//    {
+//            Console.WriteLine("pareliolon deyil");
+//    }
+//}
+
+#endregion
