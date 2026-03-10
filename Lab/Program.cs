@@ -505,16 +505,24 @@
 
 //string a = Console.ReadLine();
 //char[] b = a.ToCharArray();
+//bool c = true;
 //for (int i = 0; i < b.Length; i++)
 //{
 //    if (b[i] == b[(b.Length - i - 1)])
 //    {
-//            Console.WriteLine("pareliolondu");
+//       c=true;
 //    }
 //    else
 //    {
-//            Console.WriteLine("pareliolon deyil");
+//        c = false;
 //    }
+//}
+//if (c)
+//{
+//    Console.WriteLine("palendron");
+//}
+//else {
+//    Console.WriteLine("deyil");
 //}
 
 #endregion
